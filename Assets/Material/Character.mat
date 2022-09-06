@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CSEMAT version="1.0.0">
+<shader id="File:Shader/PBR/Character.shader">
+
+<var name="texture.albedo" type="tex" count="1">File:loading.png</var>
+<var name="vec3.albedo" type="vec3" count="1">1 1 1</var>
+</shader>
+</CSEMAT>

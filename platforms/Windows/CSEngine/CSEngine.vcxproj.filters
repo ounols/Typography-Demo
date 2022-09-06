@@ -1,0 +1,505 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\CSEngine\src\Util\Animation\Animation.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Component\Animation\AnimatorComponent.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Manager\AssetMgr.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Component\CameraComponent.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Manager\CameraMgr.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Component\CustomComponent.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Util\Loader\DAE\DAEAnimationLoader.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Util\Loader\DAE\DAEUtil\DAEConvertSGameObject.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Util\Loader\DAE\DAELoader.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Component\DrawableSkinnedMeshComponent.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Component\DrawableStaticMeshComponent.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Manager\GameObjectContainer.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Manager\GameObjectMgr.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Util\GLProgramHandle.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Component\Animation\JointComponent.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Component\LightComponent.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Manager\LightMgr.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Manager\MainProc.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Manager\MemoryContainer.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Manager\MemoryMgr.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Util\Render\MeshSurface.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Util\MoreComponentFunc.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Manager\OGLMgr.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Component\RenderComponent.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Manager\RenderContainer.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Manager\RenderMgr.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Manager\ResMgr.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Util\SafeLog.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Manager\Base\Scene.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Manager\SceneMgr.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Manager\SCloneFactory.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Manager\ScriptMgr.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Util\Render\SEnvironmentMgr.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Util\Render\SFrameBuffer.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Object\SGameObject.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Util\Render\SGBuffer.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Util\Render\ShaderUtil.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Util\Render\SMaterial.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\SObject.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Object\SPrefab.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Object\SResource.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Object\SScene.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Util\Loader\SCENE\SSceneLoader.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Object\SScriptObject.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Util\Render\STexture.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Component\TransformComponent.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Util\Loader\XML\XML.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Util\Loader\XML\XMLParser.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Util\Loader\ZIP\zip.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Util\Settings.cpp">
+      <Filter>src\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Manager\EngineCore.cpp">
+      <Filter>src\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CSEngine.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Scene\WebDemoScene.cpp">
+      <Filter>src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Component\DownloadTexComponent.cpp">
+      <Filter>src\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Component\BindTexSampleComponent.cpp">
+      <Filter>src\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Component\BindFuncSampleComponent.cpp">
+      <Filter>src\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CSEngine\src\Manager\CoreBufferContainer.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Component\PartsReplacerComponent.cpp">
+      <Filter>src\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Component\RenderOnceComponent.cpp">
+      <Filter>src\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Component\ObjectMovementComponent.cpp">
+      <Filter>src\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Manager\InputMgr.cpp">
+      <Filter>src\Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CSEngine.h" />
+    <ClInclude Include="..\..\..\CSEngine\src\Util\Animation\Animation.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\Animation\AnimationUtil.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Component\Animation\AnimatorComponent.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Manager\AssetMgr.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\AssetsDef.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\Render\CameraBase.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Component\CameraComponent.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Manager\CameraMgr.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\CaptureDef.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\ComponentDef.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Manager\Base\CoreBase.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Component\CustomComponent.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\Loader\DAE\DAEAnimationLoader.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\Loader\DAE\DAEUtil\DAEConvertSGameObject.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\Loader\DAE\DAELoader.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Component\DrawableSkinnedMeshComponent.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Component\DrawableStaticMeshComponent.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Manager\GameObjectContainer.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Manager\GameObjectMgr.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\Render\GLMeshID.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\GLProgramHandle.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\Animation\Joint.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Component\Animation\JointComponent.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Component\LightComponent.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\Render\LightHelper.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Manager\LightMgr.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\MacroDef.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Manager\MainProc.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\Matrix.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\MatrixDef.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Manager\MemoryContainer.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Manager\MemoryMgr.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\Render\MeshSurface.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\Loader\ZIP\miniz.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\MoreComponentFunc.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\MoreMath.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\MoreString.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\OGLDef.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Manager\OGLMgr.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\Quaternion.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Component\RenderComponent.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Manager\RenderContainer.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Manager\Base\RenderCoreBase.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\Render\RenderInterfaces.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Manager\RenderMgr.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Manager\ResMgr.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\SafeLog.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Manager\Base\Scene.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Manager\SceneMgr.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Manager\SCloneFactory.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Component\SComponent.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Manager\Base\SContainer.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\ScriptDef.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Manager\ScriptMgr.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\Render\SEnvironmentMgr.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\Render\SFrameBuffer.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Object\SGameObject.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\Render\SGBuffer.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\Render\ShaderUtil.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Component\SISComponent.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\Animation\Skeleton.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\Loader\DAE\DAEUtil\SkinningData.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\Render\SkyboxUtil.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\Render\SMaterial.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\SObject.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Object\SPrefab.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Object\SResource.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Object\SScene.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\Loader\SCENE\SSceneLoader.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Object\SScriptObject.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\Loader\STB\stb_image.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\Loader\STB\stb_image_write.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\Render\STexture.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\STypeDef.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Component\TransformComponent.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\Interface\TransformInterface.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\VariableBinder.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\Vector.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\Loader\DAE\DAEUtil\Vertex.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\Loader\DAE\DAEUtil\VertexSkinData.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\Loader\XML\XML.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\Loader\XML\XMLParser.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Util\Loader\ZIP\zip.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Util\Settings.h">
+      <Filter>src\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Manager\EngineCore.h">
+      <Filter>src\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Scene\WebDemoScene.h">
+      <Filter>src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Component\DownloadTexComponent.h">
+      <Filter>src\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Component\BindTexSampleComponent.h">
+      <Filter>src\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Util\MoreComponentUtil.h">
+      <Filter>src\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Component\BindFuncSampleComponent.h">
+      <Filter>src\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CSEngine\src\Manager\CoreBufferContainer.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Component\PartsReplacerComponent.h">
+      <Filter>src\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Component\RenderOnceComponent.h">
+      <Filter>src\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Component\ObjectMovementComponent.h">
+      <Filter>src\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Manager\InputMgr.h">
+      <Filter>src\Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CSEngine.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="CSEngine.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{22c9a8d6-765c-4aa5-a32d-8bd1d5a47383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{7c28f01f-aaec-4b06-905d-0e2878c4e59d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Component">
+      <UniqueIdentifier>{58ad2961-78bc-4da9-8832-f5bac408d959}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Manager">
+      <UniqueIdentifier>{c38a658f-2005-4781-ba66-e92629d328d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Util">
+      <UniqueIdentifier>{0a2669b7-0353-4d14-9750-7270eaf0b09a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{918aa26c-6f4f-41a8-a578-83b2349338cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Scene">
+      <UniqueIdentifier>{134f3040-4455-4920-8ce5-223c19c568cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
