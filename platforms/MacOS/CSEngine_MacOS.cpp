@@ -51,7 +51,7 @@ int main(void) {
     glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
-    int width = 1280;
+    int width = 1024;
     int height = 720;
 
     /* Create a windowed mode window and its OpenGL context */

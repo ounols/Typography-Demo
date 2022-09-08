@@ -21,7 +21,7 @@ void WebDemoScene::Init() {
     auto root = new SGameObject("root");
 
     /// Plane Prefab
-    auto circlePlanePrefab = SResource::Create<SPrefab>("plane_circle.prefab");
+    auto circlePlanePrefab = SResource::Create<SPrefab>("plane.prefab");
     const auto& planePrefabRenderComp = GetRenderComponent(*circlePlanePrefab->GetRoot());
     planePrefabRenderComp->SetMaterial(SResource::Create<SMaterial>("file:Material/Character.mat"));
 
@@ -30,14 +30,17 @@ void WebDemoScene::Init() {
     plane->GetTransform()->m_scale = vec3{ 0.5f, 0.5f, 0.5f };
     plane->GetTransform()->m_rotation = Quaternion::AngleAxis(vec3{ 0, 0, 1 }, Pi);
     const auto& currentPlaneRenderComponent = GetRenderComponent(*plane);
-    currentPlaneRenderComponent->SetMaterial(SResource::Create<SMaterial>("file:Material/Card.mat"));
+    currentPlaneRenderComponent->SetMaterial(SResource::Create<SMaterial>("file:Material/ForFramebufferTest.mat"));
 //    const auto& script = plane->CreateComponent<CustomComponent>();
 //    script->SetClassName("Stormtrooper.script");
     plane->CreateComponent<ObjectMovementComponent>();
 
     // Main Camera
     auto camera = new SGameObject("camera");
-    camera->CreateComponent<CameraComponent>();
+    const auto& cameraComp = camera->CreateComponent<CameraComponent>();
+    cameraComp->SetOrtho(0.5f, -0.5f, -0.5f, 0.5f);
+    cameraComp->SetCameraType(CSE::CameraComponent::ORTHO);
+    cameraComp->SetProjectionMatrix();
     camera->GetTransform()->m_position = vec3{ 0, 0, 1.5f };
 
     // Directional Light
