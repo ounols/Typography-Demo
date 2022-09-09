@@ -18,10 +18,6 @@ public:
     void Destroy() override;
 
 private:
-    CSE::SGameObject*
-    CreateCharacterParts(CSE::SPrefab* plane, const std::string& url, CSE::SGameObject& root, CSE::vec3 color);
-
-private:
     RenderOnceComponent* m_renderOnceComponent = nullptr;
     short m_partsSize = 0;
 };

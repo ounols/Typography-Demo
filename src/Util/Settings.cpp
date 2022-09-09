@@ -23,7 +23,7 @@ const bool Settings::m_assetsPacked = false;
 const bool Settings::m_assetsPacked = true;
 #endif
 
-const int Settings::m_maxJoints = 5;
+const int Settings::m_maxJoints = 20;
 
 Settings::Settings() = default;
 

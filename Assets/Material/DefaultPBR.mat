@@ -2,9 +2,9 @@
 <CSEMAT version="1.0.0">
 <shader id="File:Shader/PBR/PBR.shader">
 
-<var name="texture.albedo" type="tex" count="1">File:loading.png</var>
-<var name="texture.metallic" type="tex" count="1">ile:loading.png</var>
-<var name="texture.roughness" type="tex" count="1">ile:loading.png</var>
+<var name="texture.albedo" type="tex" count="1">File:cowboy.png</var>
+<var name="texture.metallic" type="tex" count="1">File:loading.png</var>
+<var name="texture.roughness" type="tex" count="1">File:loading.png</var>
 <var name="texture.ao" type="tex" count="1">File:loading.png</var>
 <var name="vec3.albedo" type="vec3" count="1">1 1 1</var>
 <var name="float.metallic" type="float" count="1">-1</var>
